@@ -19,7 +19,7 @@ public class JourneyController {
    @Autowired
    JourneyService journeyService;
 
-   @GetMapping()
+   @GetMapping("/list")
    public ArrayList<JourneyModel>getRoutes(){
     return journeyService.getRoutes();
    }

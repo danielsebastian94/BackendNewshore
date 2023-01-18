@@ -78,3 +78,7 @@ mvn install
 
 the data to access the database is left in the application properties
 
+3.__scripts for MySQL_
+
+The scripts for mySQL is in the branch feature/dataBase
+
